@@ -32,7 +32,7 @@ export default function TimeTracker() {
         </div>
       </div>
 
-      <button
+      {/* <button
         onClick={handleClockAction}
         className={`w-full py-3 px-4 rounded-lg flex items-center justify-center space-x-2 ${
           clockedIn
@@ -51,7 +51,7 @@ export default function TimeTracker() {
             <span>Clock In</span>
           </>
         )}
-      </button>
+      </button> */}
 
       <div className="mt-6 p-4 bg-gray-50 rounded-lg">
         <h3 className="text-sm font-medium text-gray-900 mb-2">Today's Summary</h3>
